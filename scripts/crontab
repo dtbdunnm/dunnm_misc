@@ -1,0 +1,1 @@
+30 12 1 * * sh /usr/local/bin/brew-upgrade.sh > ~/brew-upgrade.log 2>&1
