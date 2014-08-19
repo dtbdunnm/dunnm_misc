@@ -3,6 +3,9 @@ if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000
+
 # Set PS1 for git
 source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
 
