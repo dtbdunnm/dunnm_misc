@@ -11,5 +11,5 @@ let g:colors_name = "md-desert"
 
 highlight clear NonText
 highlight clear SpecialKey
-highlight NonText ctermfg=235
-highlight SpecialKey ctermfg=235
+highlight NonText ctermfg=darkgray
+highlight SpecialKey ctermfg=darkgray
